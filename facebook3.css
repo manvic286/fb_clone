@@ -1,0 +1,119 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6e7e9;
+    margin: 0%;
+}
+
+.first{
+    text-align: center;
+    margin: 0 auto;
+    width: 24em;
+}
+
+h1{
+    font-size: 3.7em;
+    color: #1877f2;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+h2{
+    font-size: 1.55em;
+    font-weight: 450;
+}
+
+form{
+    text-align: center;
+    width: 24em;
+    padding-top: 0.5em;
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    box-shadow: 0.5em 0.1em 1em 0.1em rgb(201, 199, 199);
+    margin: 0 auto;
+}
+
+input{
+    padding: 1.2em;
+    margin: 0.6em;
+    width: 24em;
+    border-radius: 0.4em;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+input:focus{
+    outline: 0.1em solid #1877f2;
+}
+
+input::placeholder{
+    font-size: 1.3em;
+}
+
+button{
+    width: 22em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    border-color: transparent;
+}
+
+span{
+    color: #FFFFFF;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.login{
+    background-color: #166bda;
+    font-size: 1em;
+}
+
+form > a{
+    color: #1877f2;
+    text-decoration: none;
+}
+
+form > a:hover{
+    text-decoration: underline;
+}
+
+.forgot{
+    margin: em;
+}
+
+hr{
+    margin-top: 2em;
+    width: 90%;
+    border-color: #ffffff;
+}
+
+.create{
+    margin: 1.2em;
+    width: 15em;
+    background-color: rgb(54, 164, 32);
+}
+
+.xtra{
+    text-align: center;
+}
+
+.cbb{
+    color: black;
+    font-size: 1em;
+}
+
+
+@media screen and (min-width:901px) {
+    .body{
+        display: flex;
+        padding-top: 8em;
+    }
+
+    .first{
+        text-align: left;
+    }
+
+    .form{
+        margin-right: 13%;
+    }
+
+}
